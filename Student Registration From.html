@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Registrasi Siswa</title>
+    </head>
+    <body>
+        <from action="prosess.php" method="GET">
+            <fieldset>
+                <legend>Student Registration Form</legend>
+                <p>
+                    <lable>Date</lable>
+                    <input type="text" name="Date" placeholder="Date..." />
+                </p>
+                <h1>FERSONAL INFORMATION</h1>
+                <hr>
+                <p>
+                    <lable>Name:</lable>
+                    <input type="text" name="Name:" placeholder="Name..." />
+                </p>
+                <p>
+                    <lable>Date Of Birth:</lable>
+                    <input type="text" name="Date Of Birth:" placeholder="Date Of Birth..." />
+                </p>
+                <h1>CONTACK INFORMATION</h1>
+                <hr>
+                <p>
+                    <lable>Address:</lable>
+                    <input type="text" name="Address:" placeholder="Address..." />
+                </p>
+                <p>
+                    <lable>City:</lable>
+                    <input type="City" name="City" placeholder="City..." /> 
+                </p>
+                <p>
+                    <lable>Zip Code:</lable>
+                    <input type="Code" name="Zip Code" placeholder="Zip Code..." />
+                </p>
+                <p>
+                    <lable>Phone:</lable>
+                    <input type="text" name="Phone" placeholder="Phone..." />
+                </p>
+                <p>
+                    <lable>Country:</lable>
+                    <input type="text" name="Country" placeholder="County..." />
+                </p>
+                <p>
+                    <lable>Province/State:</lable>
+                    <input type="text" name="Province/State" placeholder="Province/State..." />
+                </p>
+               
+                <p>
+                    <lable>Email:</lable>
+                    <input type="text" name="Email" placeholder="Email..." />
+                </p>
+                <p>
+                    <lable>Membership Type:</lable>
+                    <input type="radio" name="Membership Type" value="Regular" /> Regular 
+                    <input type="radio" name="Membership Type" value="Premium" /> Premium
+                    <input type="radio" name="Membership Type" value="Vip" /> Vip
+                </p>
+                <h1>COURSE INFORMATION</h1>
+                <hr>
+                <p>
+                    <lable>Course Name:</lable>
+                    <input type="text" name="Course Name" placeholder="Name..." />
+                </p>
+                <p>
+                <lable>Payment Details:</lable>
+                <input type="radio" name="Payment Details" value="Cash"/> Cash
+                <input type="radio" name="Payment Details" value="Cheque"/> Cheque
+                <input type="radio" name="Payment Details" value="Credit Card"/> Credit Card
+                </p>
+                <p>
+                    <lable>Comment:</lable>
+                    <input type="text" name="Comment" placeholder="Comment..." />
+                </p>
+                    <br>
+                    <input type="text" name="student" placeholder="Student Signature" /> <input type="text" name="Validated by" placeholder="Validated By" />
+                    <br>
+                   
+                    <p>
+                        <input type="submit" name="submit" value="Sumbit" />
+                    </p>
+
+            </fieldset>
+        </from>
+
+    </body>
+</html>
